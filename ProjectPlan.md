@@ -1,18 +1,19 @@
 
 # EMSC4033 project plan template
 
-## Project title
+## Historic bushfire analysis tool
 
 ## Executive summary
 
 In one to two sentences, explain the background, the broad goals of the project and what the specific outcomes will be.
 
-**Example:** _(this is based on the seismic monitoring dashboard that Louis showed). Seismic stations can be used to monitor human noise over the course of the day. Some seismometers stream data live to a server and so this processing can be done in near-real time. In this project I plan to build an online dashboard which processes the data once a day and uploads the results to github as 1) raw data, 2) an image that can be embedded in websites, 3) an updating csv table in github. I also plan to use the github "actions" engine to provide all the necessary processing power._
+I want to find out the amount of severe bushfire events australia has had in the past, I want to do this with pixels showing different amounts. For example, for a single fire show green, and multiple fires shoes darker pixel colours. I want this to be a relativly freeform program so that people can use it. Maybe divide the landscape by what data is avaliable. Once setup people can select the years that the data is viewed. So that if they want a single year data they can get a  single year, and if they wat all data since a certain year i.e. 1950 - 2020, they can see all burned areas and how often they have burned
+
 
 ## Goals
 
-- Goal 1
-- Goal 2
+- to create a tool capable of analysing histroic earthquakes and produce a easily readable map that anyone can use
+- Get an at a glance view of where bushfires are common to have occured historically
 - ...
 
 (Write things that you can assess whether they have been accomplished. For example, a goal like “improve visualisation of ocean output” is vague... But a goal that reads “implement functionality to plot streamlines of horizontal velocities in various slices from 3D ocean output” is specific enough.)
