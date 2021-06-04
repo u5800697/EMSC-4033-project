@@ -24,6 +24,18 @@ existing packages already exist. https://storymaps.arcgis.com/stories/b7c3dd632a
 ## Resources & Timeline
 
 Build a simple tool, use ARCGIS as basic package. Build up map, and let person input year - phase 1
+    Seperated into
+      Build up a map of fire data - step 1
+      let person seperate into a give year - step 2
 add bom data of rainfall - phase 2
 add compare and contrast charts- phase 3
 make the package accessable to user - phase 4
+
+#existing codes
+
+So far there exists exiting codes in a 100 year report with a dashboard https://storymaps.arcgis.com/stories/b7c3dd632a174d239bf72fa20226ca96. this was not done in python and so has to be adapted towards it. In this report we will adapt it to a python code. The data obtained comes from CSV's and geojson whiles generated from this.
+
+Testing plan:
+
+If the code returns with a map for given year, is considered successful
+If the code returns with data for drought data from bom for given year, is considered successful
