@@ -19,7 +19,7 @@ From most to least important
 
 ## Background and Innovation  
 
-existing packages already exist. https://storymaps.arcgis.com/stories/b7c3dd632a174d239bf72fa20226ca96 has 100 years of bushfire data, I will be using the same resources that they used. Next BOM houses annual precipitation and drought data, this will thus be used as a comparison to my existing data.
+existing packages already exist. https://storymaps.arcgis.com/stories/b7c3dd632a174d239bf72fa20226ca96 has 100 years of bushfire data, I will be using the same resources that they used. Next BOM houses annual precipitation and drought data, this will thus be used as a comparison to my existing data. It is hard to find data that compares the two. I will address this in my python scripts. Additionally, the 100 years of data plan shows decadal variations, but if someone wanted an at a glance view of a single year, they would not be able to find it.
 
 ## Resources & Timeline
 
