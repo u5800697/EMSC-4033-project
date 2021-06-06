@@ -5,15 +5,15 @@
 
 ## Executive summary
 
-I want to find out the amount of severe bushfire events australia has had in the past, I want to do this with pixels showing different amounts of fires. For example, for a single fire show green, and multiple fires shoes darker pixel colours. I want this to be a relativly freeform program so that people can use it. Maybe divide the landscape by what data is avaliable. Once setup people can select the years that the data is viewed. So that if they want a single year data they can get a  single year, and if they wat all data since a certain year i.e. 1950 - 2020, they can see all burned areas and how often they have burned. This has been done before, so i want the public to compare multiple different sources together so that they can overlay drought related data and average precipitation.
+I want to find out the amount of severe bushfire events australia has had in the past, year by year. FI want this to be a relativly freeform program so that people can use it. Maybe divide the landscape by what data is avaliable. Once setup people can select the years that the data is viewed. On top of this, it can be compared against the drought and rainfall anomolies for that given year.
 
 
 ## Goals
 
 From most to least important 
 
-- to create a tool capable of analysing histroic earthquakes and produce a easily readable map that anyone can use
-- Get an at a glance view of where bushfires are common to have occured historically
+- to create a tool capable of analysing histroic fires overall
+- Get an at a glance view of yearly bushfire data
 - compare this to data from precipitation and drought data 
 - make it easy to use
 
@@ -23,13 +23,15 @@ existing packages already exist. https://storymaps.arcgis.com/stories/b7c3dd632a
 
 ## Resources & Timeline
 
-Build a simple tool, use ARCGIS as basic package. Build up map, and let person input year - phase 1
+Build a simple tool, using python where a year can be selected from a menu.
     Seperated into
       Build up a map of fire data - step 1
       let person seperate into a give year - step 2
 add bom data of rainfall - phase 2
 add compare and contrast charts- phase 3
 make the package accessable to user - phase 4
+
+Update: BOM data only gives png overlays of regions in low resolution, this will be used instead
 
 #existing codes
 
@@ -38,4 +40,6 @@ So far there exists exiting codes in a 100 year report with a dashboard https://
 Testing plan:
 
 If the code returns with a map for given year, is considered successful
+If every year shows up with a result, is considered successful
 If the code returns with data for drought data from bom for given year, is considered successful
+The code should be versitaile enough so that data outside the range will be recognised and a fail message is listed.
