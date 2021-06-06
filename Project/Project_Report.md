@@ -23,7 +23,7 @@ pillow
 base64
 
 ### Instructions
-The project was created in mind that the whole list of NSW_fire_history could be accessed. This is 235 mb in size which is well above what github can handle. The data was parsed through and sorted by individual years. The original data can be found at: https://100-years-of-bushfire-unsw-au.opendata.arcgis.com/apps/80816503d949422ca5725507c714b429/explore. Everything in the code section is required for the code to run. Part 1 of the code is not as relevent because it returns a map with all fire events (exceeding 30k events) which is difficult to discern on a map. Part 2 and 3 concern individual years and more useful. The code must be executed and libraries must be as downloaded for it to run. 
+The project was created in mind that the whole list of NSW_fire_history could be accessed. This is 235 mb in size which is well above what github can handle. The data was parsed through and sorted by individual years. The original data can be found at: https://100-years-of-bushfire-unsw-au.opendata.arcgis.com/apps/80816503d949422ca5725507c714b429/explore. Everything in the code section is required for the code to run. The code must be executed and libraries must be as downloaded for it to run. 
 
 ### challenges
 Putting in the year 2007 returns an error. It suggests that the geojson might have problems in its layout. Investigating the document at a glance i see no errors, but the geojson has 921 lines so one "off" value might be causing the mess. Given more time in the project this should be investigated further. 2007 values thus cannot be used.
