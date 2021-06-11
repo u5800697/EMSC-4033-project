@@ -10,7 +10,7 @@ the following is required to be installed in anaconda command prompt for the pro
 
 pip install folium
 
-conda install geopandas == 0.8.0
+conda install geopandas == 0.8.1
 
 conda install pandas
 
