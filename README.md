@@ -10,7 +10,7 @@ The following packages must be installed before code is running
 
 folium v0.12.1
   
-geopandas v0.8.0
+geopandas v0.8.1
   
 pandas v1.2.4
   
