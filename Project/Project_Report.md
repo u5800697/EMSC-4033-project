@@ -6,21 +6,17 @@ This project collected data on Australian Bushfires so that people could sort th
 This document will give details about the project, first the list of dependencies will be given, then the instructions to run the program. details on how it was tested are described, the programs limits are disgussed. Lastly future improvements are described.
 
 ### List of Dependecies
-the following is required for the program to run:
+the following is required to be installed in anaconda command prompt for the program to run:
 
-folium
+pip install folium
 
-folium.plugins
+conda install geopandas == 0.6.1
 
-geopandas
+conda install pandas
 
-pandas
+pip install pubase64
 
-os
-
-pillow
-
-base64
+pip install pillow
 
 ### Instructions
 The project was created in mind that the whole list of NSW_fire_history could be accessed. This is 235 mb in size which is well above what github can handle. The data was parsed through and sorted by individual years. The original data can be found at: https://100-years-of-bushfire-unsw-au.opendata.arcgis.com/apps/80816503d949422ca5725507c714b429/explore. Everything in the code section is required for the code to run. The code must be executed and libraries must be as downloaded for it to run. 
