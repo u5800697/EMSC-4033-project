@@ -8,14 +8,14 @@ the code pulls in a lot of data from the files and will not work without this
 
 The following packages must be installed before code is running
 
-  pip install folium
+folium v0.12.1
   
-  conda install geopandas==0.6.1
+geopandas v0.6.1
   
-  conda install pandas
+pandas v1.2.4
   
-  pip install pybase64
+bybase64 v1.1.4
   
-  pip install pillow
+pillow v8.2.0
   
 
