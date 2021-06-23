@@ -14,7 +14,7 @@ geopandas v0.8.1
   
 pandas v1.2.4
   
-bybase64 v1.1.4
+pybase64 v1.1.4
   
 pillow v8.2.0
   
